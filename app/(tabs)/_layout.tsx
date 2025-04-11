@@ -22,6 +22,7 @@ const TabsLayout = () => {
         name="index"
         options={{
           title: "Home",
+          headerTitleAlign: "center",
           tabBarIcon: ({ color, focused }) => (
             <Ionicons
               name={focused ? "home-sharp" : "home-outline"}
